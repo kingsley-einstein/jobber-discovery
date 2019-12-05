@@ -1,0 +1,8 @@
+---
+applications:
+  - name: job-board-discovery
+    instances: 1
+    path: ./target/jobs-discovery-0.0.1-SNAPSHOT.jar
+    memory: 1G
+    env:
+      SPRING_PROFILES_ACTIVE: production
